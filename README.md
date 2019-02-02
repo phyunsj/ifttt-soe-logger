@@ -1,6 +1,6 @@
 # SOE Logger using IFTTT(Webhooks)
 
-Please follow **Patrick Murray**'s instructions from [How To Quickly Collect Data And Run Reports](https://www.youtube.com/watch?v=zc8W74X3Dbs) or https://learnavprogramming.com/avit/how-to-quickly-collect-data-and-run-reports/  to configure IFTTT applets with webhooks.
+Please follow **Patrick Murray**'s instructions from [How To Quickly Collect Data And Run Reports](https://www.youtube.com/watch?v=zc8W74X3Dbs) (or https://learnavprogramming.com/avit/how-to-quickly-collect-data-and-run-reports/ ) to configure IFTTT applets with webhooks.
 
 ## IFTTT
 
@@ -13,13 +13,13 @@ See Also :
 
 **Webhooks**
 
-Integrate other services on IFTTT with your DIY projects. You can create Applets that work with any device or app that can make or receive a web request. If you'd like to build your own service and Applets. ...from https://ifttt.com/maker_webhooks
+Integrate other services on IFTTT with your DIY projects. You can create Applets that work with any device or app that can make or receive a web request. If you'd like to build your own service and Applets. ...from [ifttt.com](https://ifttt.com/maker_webhooks)
 
 <p align="center">
 <img src="https://github.com/phyunsj/ifttt-soe-logger/blob/master/images/ifttt-webhooks.png" width="500px"/>
 </p>
 
-## 2 X IoT Simulator + IFTTT Webhooks (http request)
+## IoT Simulator + IFTTT Webhooks
 
 Edited flow from [iot-device-simulator-2-stringify](https://github.com/phyunsj/iot-device-simulator-2-stringify). Created two iot simulators to send SOE record (Event Type, ZIP, UV index). 
 
