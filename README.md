@@ -16,7 +16,7 @@ See Also :
 Integrate other services on IFTTT with your DIY projects. You can create Applets that work with any device or app that can make or receive a web request. If you'd like to build your own service and Applets. ...from https://ifttt.com/maker_webhooks
 
 <p align="center">
-<img src="https://github.com/phyunsj/ifttt-soe-logger/blob/master/images/ifttt-webhooks.png" width="300px"/>
+<img src="https://github.com/phyunsj/ifttt-soe-logger/blob/master/images/ifttt-webhooks.png" width="500px"/>
 </p>
 
 ## Node-RED
