@@ -2,6 +2,8 @@
 
 Please follow **Patrick Murray**'s instructions from [How To Quickly Collect Data And Run Reports](https://www.youtube.com/watch?v=zc8W74X3Dbs) (or https://learnavprogramming.com/avit/how-to-quickly-collect-data-and-run-reports/ ) to configure IFTTT applets with webhooks.
 
+Collect Sequence of Events(SOE) and store in Google Sheets.
+
 ## IFTTT
 
 **I**f **T**his **T**hen **T**hat, also known as **IFTTT** is a free web-based service to create chains of simple conditional statements, called **applets**. An applet is triggered by changes that occur within other web services such as Gmail, Facebook, Telegram, Instagram, or Pinterest. ..._from [wikipedia](https://en.wikipedia.org/wiki/IFTTT)_
