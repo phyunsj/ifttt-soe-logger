@@ -1,11 +1,27 @@
-# SOE Logger using IFTTT(Webhook)
+# SOE Logger using IFTTT(Webhooks)
 
 3rd iot simulator example with IFTTT platform
 
+## IFTTT
+
+**I**f **T**his **T**hen **T**hat, also known as **IFTTT** is a free web-based service to create chains of simple conditional statements, called **applets**. An applet is triggered by changes that occur within other web services such as Gmail, Facebook, Telegram, Instagram, or Pinterest. ..._from [wikipedia](https://en.wikipedia.org/wiki/IFTTT)_
+
 See Also :
 
--  [IFTTT](https://ifttt.com/discover)
+- [IFTTT Discover](https://ifttt.com/discover)
+- [What is IFTTT?](https://help.ifttt.com/hc/en-us/articles/115010325748-What-is-IFTTT-)
 
+**Webhooks**
+
+Integrate other services on IFTTT with your DIY projects. You can create Applets that work with any device or app that can make or receive a web request. If you'd like to build your own service and Applets. ...from https://ifttt.com/maker_webhooks
+
+<p align="center">
+<img src="https://github.com/phyunsj/ifttt-soe-logger/blob/master/images/ifttt-webhooks.png" width="300px"/>
+</p>
+
+## Node-RED
+
+Edited flow from [iot-device-simulator-2-stringify](https://github.com/phyunsj/iot-device-simulator-2-stringify). Created two iot simulators to send SOE record (event type, ZIP, UV index). 
 
 <p align="center">
 <img src="https://github.com/phyunsj/ifttt-soe-logger/blob/master/images/ifttt-soe-logger-flow.png" width="600px"/>
