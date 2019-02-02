@@ -1,4 +1,4 @@
-# SOE Logger using IFTTT(Webhooks)
+# SOE logging with IFTTT Applets
 
 Please follow **Patrick Murray**'s instructions from [How To Quickly Collect Data And Run Reports](https://www.youtube.com/watch?v=zc8W74X3Dbs) (or https://learnavprogramming.com/avit/how-to-quickly-collect-data-and-run-reports/ ) to configure IFTTT applets with webhooks.
 
@@ -18,6 +18,12 @@ Integrate other services on IFTTT with your DIY projects. You can create Applets
 <p align="center">
 <img src="https://github.com/phyunsj/ifttt-soe-logger/blob/master/images/ifttt-webhooks.png" width="500px"/>
 </p>
+
+You will find `{{KEY}}` from Webhooks settings. For example, `https://maker.ifttt.com/use/{{KEY}}`.
+
+Assign URL with `{{KEY}}` and `{{EVENT NAME}}` for `http-request` node. `{{EVENT NAME}}` is `soe`.
+
+`https://maker.ifttt.com/trigger/{{EVENT NAME}}/with/key/{{KEY}}`
 
 ## IoT Simulator + IFTTT Webhooks
 
