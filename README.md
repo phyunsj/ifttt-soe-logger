@@ -1,9 +1,8 @@
 # SOE Logger using IFTTT(Webhooks)
 
-Someone already explored the idea of integrating Node-RED with IFTTT platform. 
+Someone (Credit to **Patrick Murray**) already explored the idea of integrating Node-RED with IFTTT platform. 
 
-Please follow the instructions from [How To Quickly Collect Data And Run Reports](https://www.youtube.com/watch?v=zc8W74X3Dbs) or https://learnavprogramming.com/avit/how-to-quickly-collect-data-and-run-reports/  (Credit to Patrick Murray
-)  
+Please follow his instructions from [How To Quickly Collect Data And Run Reports](https://www.youtube.com/watch?v=zc8W74X3Dbs) or https://learnavprogramming.com/avit/how-to-quickly-collect-data-and-run-reports/  to configure IFTTT applets with webhooks.
 
 ## IFTTT
 
