@@ -1,6 +1,9 @@
 # SOE Logger using IFTTT(Webhooks)
 
-3rd iot simulator example with IFTTT platform
+Someone already explored the idea of integrating Node-RED with IFTTT platform. 
+
+Please follow the instructions from [How To Quickly Collect Data And Run Reports](https://www.youtube.com/watch?v=zc8W74X3Dbs) or https://learnavprogramming.com/avit/how-to-quickly-collect-data-and-run-reports/  (Credit to Patrick Murray
+)  
 
 ## IFTTT
 
@@ -19,9 +22,9 @@ Integrate other services on IFTTT with your DIY projects. You can create Applets
 <img src="https://github.com/phyunsj/ifttt-soe-logger/blob/master/images/ifttt-webhooks.png" width="500px"/>
 </p>
 
-## Node-RED
+## 2 X IoT Simulator + IFTTT Webhooks (http request)
 
-Edited flow from [iot-device-simulator-2-stringify](https://github.com/phyunsj/iot-device-simulator-2-stringify). Created two iot simulators to send SOE record (event type, ZIP, UV index). 
+Edited flow from [iot-device-simulator-2-stringify](https://github.com/phyunsj/iot-device-simulator-2-stringify). Created two iot simulators to send SOE record (Event Type, ZIP, UV index). 
 
 <p align="center">
 <img src="https://github.com/phyunsj/ifttt-soe-logger/blob/master/images/ifttt-soe-logger-flow.png" width="600px"/>
