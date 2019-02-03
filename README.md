@@ -1,8 +1,8 @@
 # SOE logging with IFTTT Applets
 
-Please follow **Patrick Murray**'s instructions from [How To Quickly Collect Data And Run Reports](https://www.youtube.com/watch?v=zc8W74X3Dbs) (or https://learnavprogramming.com/avit/how-to-quickly-collect-data-and-run-reports/ ) to configure IFTTT applets with webhooks.
+The purpose of this example is to collect Sequence of Events(SOE) and store in Google Sheets for later use. 
 
-Collect Sequence of Events(SOE) and store in Google Sheets.
+Please follow **Patrick Murray**'s instructions from [How To Quickly Collect Data And Run Reports](https://www.youtube.com/watch?v=zc8W74X3Dbs) (or https://learnavprogramming.com/avit/how-to-quickly-collect-data-and-run-reports/ ) to configure IFTTT applets with webhooks.
 
 ## IFTTT
 
