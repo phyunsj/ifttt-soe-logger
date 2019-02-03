@@ -47,6 +47,6 @@ Example Flow :
 <img src="https://github.com/phyunsj/ifttt-soe-logger/blob/master/images/ifttt-soe-logger-xls.gif" width="600px"/>
 </p>
 
-#### Others 
+#### Other example
 
 - [Controlling TV with Google Home, IFTTT and Node-RED](https://webhookrelay.com/blog/2019/01/29/google-home-ifttt-node-red/) 
