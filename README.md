@@ -49,4 +49,4 @@ Example Flow :
 
 #### Others 
 
-- [Controlling TV with Google Home, IFTTT and Node-RED](https://webhookrelay.com/blog/2019/01/29/google-home-ifttt-node-red/) Node-RED as an action. 
+- [Controlling TV with Google Home, IFTTT and Node-RED](https://webhookrelay.com/blog/2019/01/29/google-home-ifttt-node-red/) 
