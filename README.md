@@ -27,7 +27,7 @@ You will find `{{KEY}}` from Webhooks settings. For example, `https://maker.iftt
 
 Edited flow from [iot-device-simulator-2-stringify](https://github.com/phyunsj/iot-device-simulator-2-stringify). Created two iot simulators to send SOE record (Event Type, ZIP, UV index). 
 
-ssign URL with `{{KEY}}` and `{{EVENT NAME}}` for `http-request` node. `{{EVENT NAME}}` is `soe`.
+Assign URL with `{{KEY}}` and `{{EVENT NAME}}` for `http-request` node. `{{EVENT NAME}}` is `soe`.
 `https://maker.ifttt.com/trigger/{{EVENT NAME}}/with/key/{{KEY}}`
 
 <p align="center">
@@ -41,6 +41,17 @@ Example Flow :
 ```
 
 ## In Action
+
+```
+var newMsg = {};
+newMsg.event = "soe";
+newMsg.payload = { 
+    value1 : "measure", // "measure" or "re-deploy"
+    value2 : msg.payload.ZIPCode, 
+    value3 : msg.payload.UV_Index
+};
+return newMsg;
+```
 
 <p align="center">
 <img src="https://github.com/phyunsj/ifttt-soe-logger/blob/master/images/ifttt-soe-logger-xls.gif" width="600px"/>
