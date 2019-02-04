@@ -23,13 +23,12 @@ Integrate other services on IFTTT with your DIY projects. You can create Applets
 
 You will find `{{KEY}}` from Webhooks settings. For example, `https://maker.ifttt.com/use/{{KEY}}`.
 
-Assign URL with `{{KEY}}` and `{{EVENT NAME}}` for `http-request` node. `{{EVENT NAME}}` is `soe`.
-
-`https://maker.ifttt.com/trigger/{{EVENT NAME}}/with/key/{{KEY}}`
-
 ## IoT Simulator + IFTTT Webhooks
 
 Edited flow from [iot-device-simulator-2-stringify](https://github.com/phyunsj/iot-device-simulator-2-stringify). Created two iot simulators to send SOE record (Event Type, ZIP, UV index). 
+
+ssign URL with `{{KEY}}` and `{{EVENT NAME}}` for `http-request` node. `{{EVENT NAME}}` is `soe`.
+`https://maker.ifttt.com/trigger/{{EVENT NAME}}/with/key/{{KEY}}`
 
 <p align="center">
 <img src="https://github.com/phyunsj/ifttt-soe-logger/blob/master/images/ifttt-soe-logger-flow.png" width="600px"/>
