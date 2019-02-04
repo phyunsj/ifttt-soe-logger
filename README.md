@@ -41,19 +41,13 @@ Example Flow :
 
 ## In Action
 
-```
-var newMsg = {};
-newMsg.event = "soe";
-newMsg.payload = { 
-    value1 : "measure", // "measure" or "re-deploy"
-    value2 : msg.payload.ZIPCode, 
-    value3 : msg.payload.UV_Index
-};
-return newMsg;
-```
+<p align="center">
+<img src="https://github.com/phyunsj/ifttt-soe-logger/blob/master/images/http-ifttt-post.png" width="650px"/>
+</p>
+
 
 <p align="center">
-<img src="https://github.com/phyunsj/ifttt-soe-logger/blob/master/images/ifttt-soe-logger-xls.gif" width="600px"/>
+<img src="https://github.com/phyunsj/ifttt-soe-logger/blob/master/images/ifttt-soe-logger-xls.gif" width="650px"/>
 </p>
 
 #### Other example
